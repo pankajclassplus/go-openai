@@ -1,3 +1,3 @@
-module github.com/pankajclassplus/go-openai
+module github.com/pankajclassplus/openai
 
 go 1.18

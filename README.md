@@ -1,9 +1,7 @@
 # Go OpenAI
-[![GoDoc](http://img.shields.io/badge/GoDoc-Reference-blue.svg)](https://godoc.org/github.com/pankajclassplus/go-openai)
-[![Go Report Card](https://goreportcard.com/badge/github.com/pankajclassplus/go-openai)](https://goreportcard.com/report/github.com/pankajclassplus/go-openai)
-[![codecov](https://codecov.io/gh/pankajclassplus/go-openai/branch/master/graph/badge.svg?token=bCbIfHLIsW)](https://codecov.io/gh/pankajclassplus/go-openai)
-
-> **Note**: the repository was recently renamed from `go-gpt3` to `go-openai`
+[![GoDoc](http://img.shields.io/badge/GoDoc-Reference-blue.svg)](https://godoc.org/github.com/pankajclassplus/openai)
+[![Go Report Card](https://goreportcard.com/badge/github.com/pankajclassplus/openai)](https://goreportcard.com/report/github.com/pankajclassplus/openai)
+[![codecov](https://codecov.io/gh/pankajclassplus/openai/branch/master/graph/badge.svg?token=bCbIfHLIsW)](https://codecov.io/gh/pankajclassplus/openai)
 
 This library provides Go clients for [OpenAI API](https://platform.openai.com/). We support:
 
@@ -14,7 +12,7 @@ This library provides Go clients for [OpenAI API](https://platform.openai.com/).
 
 Installation:
 ```
-go get github.com/pankajclassplus/go-openai
+go get github.com/pankajclassplus/openai
 ```
 
 
@@ -26,7 +24,7 @@ package main
 import (
 	"context"
 	"fmt"
-	openai "github.com/pankajclassplus/go-openai"
+	openai "github.com/pankajclassplus/openai"
 )
 
 func main() {
@@ -69,7 +67,7 @@ import (
 	"errors"
 	"fmt"
 	"io"
-	openai "github.com/pankajclassplus/go-openai"
+	openai "github.com/pankajclassplus/openai"
 )
 
 func main() {
@@ -122,7 +120,7 @@ package main
 import (
 	"context"
 	"fmt"
-	openai "github.com/pankajclassplus/go-openai"
+	openai "github.com/pankajclassplus/openai"
 )
 
 func main() {
@@ -155,7 +153,7 @@ import (
 	"context"
 	"fmt"
 	"io"
-	openai "github.com/pankajclassplus/go-openai"
+	openai "github.com/pankajclassplus/openai"
 )
 
 func main() {
@@ -204,7 +202,7 @@ import (
 	"context"
 	"fmt"
 
-	openai "github.com/pankajclassplus/go-openai"
+	openai "github.com/pankajclassplus/openai"
 )
 
 func main() {
@@ -236,7 +234,7 @@ import (
 	"context"
 	"encoding/base64"
 	"fmt"
-	openai "github.com/pankajclassplus/go-openai"
+	openai "github.com/pankajclassplus/openai"
 	"image/png"
 	"os"
 )
@@ -324,7 +322,7 @@ config.HTTPClient = &http.Client{
 c := openai.NewClientWithConfig(config)
 ```
 
-See also: https://pkg.go.dev/github.com/pankajclassplus/go-openai#ClientConfig
+See also: https://pkg.go.dev/github.com/pankajclassplus/openai#ClientConfig
 </details>
 
 <details>
@@ -340,7 +338,7 @@ import (
 	"os"
 	"strings"
 
-	"github.com/pankajclassplus/go-openai"
+	"github.com/pankajclassplus/openai"
 )
 
 func main() {

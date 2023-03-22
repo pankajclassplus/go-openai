@@ -6,7 +6,7 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/pankajclassplus/go-openai/internal/test"
+	"github.com/pankajclassplus/openai/internal/test"
 )
 
 var (

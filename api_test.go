@@ -1,7 +1,7 @@
 package openai_test
 
 import (
-	. "github.com/pankajclassplus/go-openai"
+	. "github.com/pankajclassplus/openai"
 
 	"context"
 	"errors"

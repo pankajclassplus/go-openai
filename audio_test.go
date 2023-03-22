@@ -11,8 +11,8 @@ import (
 	"path/filepath"
 	"strings"
 
-	. "github.com/pankajclassplus/go-openai"
-	"github.com/pankajclassplus/go-openai/internal/test"
+	. "github.com/pankajclassplus/openai"
+	"github.com/pankajclassplus/openai/internal/test"
 
 	"context"
 	"testing"

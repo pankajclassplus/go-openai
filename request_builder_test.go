@@ -1,7 +1,7 @@
 package openai //nolint:testpackage // testing private field
 
 import (
-	"github.com/pankajclassplus/go-openai/internal/test"
+	"github.com/pankajclassplus/openai/internal/test"
 
 	"context"
 	"errors"
